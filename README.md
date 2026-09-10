@@ -146,7 +146,7 @@ Hariom Caterers Booking Website
     <p>Wedding • Birthday • Party • Function • Corporate Events</p>
 
     <a class="btn"
-       href="https://wa.me/919XXXXXXXXX"
+       href="https://wa.me/917805071012"
        target="_blank">
        📲 WhatsApp Booking
     </a>
