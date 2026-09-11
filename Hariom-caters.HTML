@@ -311,18 +311,27 @@ document.getElementById("bookingForm").addEventListener("submit", function(e) {
   const guests = document.getElementById("guests").value;
   const location = document.getElementById("location").value;
   const message = document.getElementById("message").value;
-    const text =
-`🍽️ *Hariom Caters - New Booking*
+const text = `
+🍽️ *Hariom Caters – New Booking Request*
 
-👤 Name: ${name.value}
-📞 Mobile: ${phone.value}
-🎉 Event: ${event.value}
-📅 Date: ${date.value}
-👥 Guests: ${guests.value}
-📍 Location: ${location.value}
+👤 *Customer Details*
+Name: ${name.value}
+Mobile: ${phone.value}
 
-📝 Requirement:
-${message.value || "No special requirement"}`;
+🎉 *Event Details*
+Event Type: ${event.value}
+Date: ${date.value}
+Guests: ${guests.value}
+Location: ${location.value}
+
+📝 *Special Requirements*
+${message.value || "No special requirements"}
+
+🙏 Thank you for choosing *Hariom Caters*.
+Please confirm availability and share the quotation.
+
+— *Hariom Caters*
+`;
 
   const url =
     "https://wa.me/" +
